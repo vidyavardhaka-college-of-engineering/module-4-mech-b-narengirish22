@@ -8,7 +8,7 @@
 int main()
 {
   int var,*ptr;
-//Initialize the pointer variable
+  ptr=&var;
   printf("Enter the value:");
   scanf("%d",&var);
   printf("value=%d",*ptr);
